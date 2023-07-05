@@ -1,0 +1,82 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  #chat-container {
+    width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #chat-header {
+    padding: 15px;
+    background-color: #128c7e;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+  }
+  
+  #chat-messages {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 15px;
+  }
+  
+  .message {
+    position: relative;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-content {
+    font-size: 16px;
+    word-wrap: break-word;
+  }
+  
+  .message-delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #f44336;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  #message-form {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+  }
+  
+  #message-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #send-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #128c7e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #send-button:hover {
+    background-color: #075e54;
+  }
+  
